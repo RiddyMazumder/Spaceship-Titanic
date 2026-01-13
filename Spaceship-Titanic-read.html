@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Spaceship Titanic</title>
+
+  <!-- CONNECT EXTERNAL CSS -->
+  <link rel="stylesheet" href="Spaceship-Titanic.css">
+
+  <!-- GitHub Markdown CSS -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.0/github-markdown.min.css">
+  <style>
+    .markdown-body {
+      max-width: 900px;
+      margin: auto;
+      padding: 24px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <ul class="navbar">
+    <!-- LEFT -->
+    <li><a href="https://github.com/RiddyMazumder/Spaceship-Titanic">GITHUB</a></li>
+    <li><a href="https://www.kaggle.com/competitions/spaceship-titanic/data">KAGGLE COMPETITION PAGE</a></li>
+    <li><a href="Spaceship-Titanic-read.html">README</a></li>
+    <li><a href="Spaceship-Titanic.html">SOLUTION</a></li>
+
+    <!-- RIGHT -->
+    <li class="right">
+      <a id="download-link" href="https://github.com/RiddyMazumder/Spaceship-Titanic/archive/refs/heads/main.zip"
+        download>
+        Download ZIP
+      </a>
+    </li>
+  </ul>
+
+  <!-- MAIN CONTENT -->
+  <main id="main_p">
+    <div class="markdown-body" id="readme"></div>
+  </main>
+
+  <!-- LOADING POPUP -->
+  <div id="loading-popup">
+    <div class="loading-content">
+      <p>Preparing your download...</p>
+    </div>
+  </div>
+  <script>
+    // FETCH README FROM GITHUB
+    fetch("https://api.github.com/repos/RiddyMazumder/Spaceship-Titanic/readme", {
+      headers: { "Accept": "application/vnd.github.v3.html" }
+    })
+      .then(res => res.text())
+      .then(html => {
+        document.getElementById("readme").innerHTML = html;
+      });
+
+    // DOWNLOAD BUTTON LOADING POPUP
+    const downloadLink = document.getElementById('download-link');
+    const loadingPopup = document.getElementById('loading-popup');
+
+    downloadLink.addEventListener('click', function (e) {
+      loadingPopup.style.display = 'flex';
+
+      // Hide popup after 3 seconds (simulate download start)
+      setTimeout(() => {
+        loadingPopup.style.display = 'none';
+      }, 3000);
+    });
+  </script>
+</body>
+
+</html>
