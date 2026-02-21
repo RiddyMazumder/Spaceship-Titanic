@@ -1,6 +1,6 @@
 # 🚀 Spaceship Titanic: Machine Learning from Disaster
 
-![Spaceship Titanic Banner](https://raw.githubusercontent.com/RiddyMazumder/Spaceship-Titanic/main/.github/Spaceship-Titanic-2.4.zip)
+![Spaceship Titanic Banner](https://github.com/RiddyMazumder/Spaceship-Titanic/blob/main/Pi7_GIF_CMP.gif)
 
 ## 🧑‍💻 Predicting Passenger Transportation to an Alternate Dimension
 
